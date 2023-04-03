@@ -5,7 +5,7 @@ class Sonic {
 
     Jogging() {
         this.maxFrames = 8;
-        this.imgSrc = `.\\sprites\\${this.index}.png`;
+        this.imgSrc = `.\\sprites\\jogging\\${this.index}.png`;
     }
 }
 
