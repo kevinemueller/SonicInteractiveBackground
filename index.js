@@ -29,7 +29,7 @@ function animate() {
     // clear canvas
     ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
     
-    img.src = `.\\sprites\\jogging\\${index}.png`;
+    img.src = `.\\jogging\\${index}.png`;
     ctx.drawImage(img, xPos, 1, img.width/3, img.height/3);
 
     ctx.drawImage(img, xPos, 200, img.width/3, img.height/3);
